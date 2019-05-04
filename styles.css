@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+    background-color: black;
+}
+/* Nav Styles */
+
+.navCustom{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navSpacing{
+    margin-left:50px;
+}
+
+.linkSpacing{
+    margin-right: 30px;
+}
+
+/* Landing/Home styles */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .homeSummary{
+        font-family: 'DIN Alternate', sans-serif;
+        font-size: 22px;
+        letter-spacing: 5px;
+        text-align: center;
+        padding:10px;
+        line-height: 36px;
+        padding-top:40px;
+    }
+
+    .lineBreak{
+        max-height: 3px;
+        width:85%;
+    }
+
+    .lineContainer{
+        padding-top:10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .drivewayPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .drivewayPic{
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    .patioPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .patioPic{
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    .sidewalkPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidewalkPic{
+        margin-top: 50px;
+        border-radius: 7px;
+        margin-bottom:110px;
+    }
+
+    .footerContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerCustom{
+        padding:12px;
+        background: rgb(231,65,52);
+        background: linear-gradient(90deg, rgba(231,65,52,1) 0%, rgba(250,177,93,1) 100%);
+    }
+
+    .freeQuoteButton{
+        font-family: 'Montserrat', sans-serif;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/*// Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* .homeSummary{
+    font-family: 'DIN Alternate', sans-serif;
+    font-size: 30px;
+    letter-spacing: 20px;
+} */
