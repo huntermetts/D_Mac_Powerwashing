@@ -89,16 +89,146 @@ body{
  }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+    .homeSummary{
+        font-family: 'DIN Alternate', sans-serif;
+        font-size: 22px;
+        letter-spacing: 5px;
+        text-align: center;
+        padding:10px;
+        line-height: 36px;
+        padding-top:40px;
+    }
+
+    .lineBreak{
+        max-height: 3px;
+        width:85%;
+    }
+
+    .lineContainer{
+        padding-top:10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .drivewayPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .drivewayPic{
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    .patioPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .patioPic{
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    .sidewalkPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidewalkPic{
+        margin-top: 50px;
+        border-radius: 7px;
+        margin-bottom:110px;
+    }
+
+    .footerContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerCustom{
+        padding:12px;
+        background: rgb(231,65,52);
+        background: linear-gradient(90deg, rgba(231,65,52,1) 0%, rgba(250,177,93,1) 100%);
+    }
+
+    .freeQuoteButton{
+        font-family: 'Montserrat', sans-serif;
+    }
+}
 
 /*// Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+    .homeSummary{
+        font-family: 'DIN Alternate', sans-serif;
+        font-size: 35px;
+        letter-spacing: 5px;
+        text-align: center;
+        padding:10px;
+        line-height: 55px;
+        padding-top: 60px;
+    }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+    .lineBreak{
+        max-height: 3px;
+        width:85%;
+    }
 
-/* .homeSummary{
-    font-family: 'DIN Alternate', sans-serif;
-    font-size: 30px;
-    letter-spacing: 20px;
-} */
+    .lineContainer{
+        padding-top:10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .drivewayPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .drivewayPic{
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    .patioPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .patioPic{
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    .sidewalkPicContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidewalkPic{
+        margin-top: 50px;
+        border-radius: 7px;
+        margin-bottom:110px;
+    }
+
+    .footerContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerCustom{
+        padding:12px;
+        background: rgb(231,65,52);
+        background: linear-gradient(90deg, rgba(231,65,52,1) 0%, rgba(250,177,93,1) 100%);
+    }
+
+    .freeQuoteButton{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .imgContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+ }
