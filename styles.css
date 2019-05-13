@@ -86,6 +86,27 @@ body{
     .freeQuoteButton{
         font-family: 'Montserrat', sans-serif;
     }
+
+    .clientSummary{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        padding:25px;
+    }
+
+    .formLength{
+        width:50%;
+        display: flex;
+        align-content: center;
+        margin: 15px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -155,6 +176,27 @@ body{
 
     .freeQuoteButton{
         font-family: 'Montserrat', sans-serif;
+    }
+
+    .clientSummary{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        padding:25px;
+    }
+
+    .formLength{
+        width:50%;
+        display: flex;
+        align-content: center;
+        margin: 15px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 }
 
@@ -231,4 +273,26 @@ body{
         display: flex;
         justify-content: space-around;
     }
+
+    .clientSummary{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        padding:25px;
+    }
+
+    .formLength{
+        width:50%;
+        display: flex;
+        align-content: center;
+        margin: 15px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
  }
